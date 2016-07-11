@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Q</key>
+		<string>1、如何连接网关？</string>
+		<key>A</key>
+		<string> 1）接通网关电源，使用以太网网线将网关连接到您家的WIFI路由器；/n 2）扫描网关背面的二维码，下载小乐侍手机APP应用程序；/n 3）打开小乐侍APP应用程序，按下网关的“连接”按钮，输入邮箱即可登陆。</string>
+	</dict>
+	<dict>
+		<key>Q</key>
+		<string>2、设备如何与网关相连？</string>
+		<key>A</key>
+		<string>去除设备的绝缘胶带，给设备上电后，按网关上面的连接键，设备就能和网关相连了，设备连入时，网关会发出滴的提示音。</string>
+	</dict>
+	<dict>
+		<key>Q</key>
+		<string>3、设备如何恢复出厂设置？</string>
+		<key>A</key>
+		<string> 1）电子钥匙、振动传感器恢复出厂设置的方法：5秒钟内，快速按10次以上；/n 2）门磁、PIR、SOS按钮恢复出厂设置的方法：打开后盖，长按黑色按钮5秒钟以上；/n 3）烟雾传感器恢复出厂设置的方法：长按侧键5秒钟以上；/n 4）彩色灯带的恢复出厂设置的方法：长按控制盒上的黑色按钮5秒钟以上；/n 5）插座恢复出厂设置的方法：长按开关键5秒以上；/n 6）彩色灯泡恢复出厂设置的方法：连续开、关7次，每次开灯的时间为3至5秒之间。</string>
+	</dict>
+	<dict>
+		<key>Q</key>
+		<string>4、网关为何发出滴的提示音？</string>
+		<key>A</key>
+		<string> 1）当新设备连入系统时，网关会发出滴的提示音；/n 2）网关重启或重新上电后，所有设备将会重新连入系统，网关会发出滴的提示音；/n 3）当设备意外离线后，从重新连入系统时，网关会发出滴的提示音。</string>
+	</dict>
+	<dict>
+		<key>Q</key>
+		<string> 5、设防(在家)和设防(离家)有什么不同？</string>
+		<key>A</key>
+		<string> 1）设防（在家）：系统默认状态下只有门磁传感器触发警报，用户可更改；/n 2）设防（离家）：系统默认状态下所有传感器都会触发警报，用户可更改。</string>
+	</dict>
+	<dict>
+		<key>Q</key>
+		<string>6、手机收不到推送消息该怎么办？</string>
+		<key>A</key>
+		<string> 检查手机的3G/4G或者WiFi是否处于打开状态，检查手机os系统中小乐侍APP应用的消息通知功能是否为开启状态。</string>
+	</dict>
+	<dict>
+		<key>Q</key>
+		<string>7、什么情况下系统会自动上防和撤防？</string>
+		<key>A</key>
+		<string> 1）系统需要配备：1、电子钥匙。2、门磁传感器。 3、网关；/n 2）当所有的电子钥匙离开家后，并且发生关门的动作，系统会判定家里没人，10分钟后系统自动上防；/n 3）当电子钥匙回家时，并且发生开门的动作，系统会判定主人回家，自动撤防。</string>
+	</dict>
+	<dict>
+		<key>Q</key>
+		<string>8、当设备离网关太远无法通讯上有什么解决办法？</string>
+		<key>A</key>
+		<string>可以在设备与网关之间增加一个插座，插座具有中继的功能，可以扩大网关无线信号的覆盖范围。</string>
+	</dict>
+	<dict>
+		<key>Q</key>
+		<string>9、如何设置微信的图片推送？</string>
+		<key>A</key>
+		<string>请关注“乐侍微服”的公众号，然后在公众号上绑定摄像头底座上的UUID号（一串长长的数字加字母）。</string>
+	</dict>
+	<dict>
+		<key>Q</key>
+		<string>10、网关升级失败后，怎么办？</string>
+		<key>A</key>
+		<string> 1）网关升级过程中，只有电源灯亮起，升级成功后，会发出设防在家的提示音；/n 2）升级过程中发生任何错误，请等待三分钟。如果三分钟后网关依然处于一个电源灯亮起的状态，请断掉网关电源重新上电，2分钟后网关重新自动升级。</string>
+	</dict>
+</array>
+</plist>

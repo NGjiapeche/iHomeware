@@ -1,0 +1,12 @@
+
+/* Class = "IBUILabel"; text = "Master Switch"; ObjectID = "G1H-GL-8ZB"; */
+"G1H-GL-8ZB.text" = "总开关";
+
+/* Class = "IBUILabel"; text = "Light And Color"; ObjectID = "PdE-tg-RUi"; */
+"PdE-tg-RUi.text" = "灯光";
+
+/* Class = "IBUILabel"; text = "Single Switch"; ObjectID = "e5W-ES-MKT"; */
+"e5W-ES-MKT.text" = "单开关";
+
+/* Class = "IBUILabel"; text = "Brightness"; ObjectID = "tcf-Nl-mFw"; */
+"tcf-Nl-mFw.text" = "亮度";

@@ -1,0 +1,6 @@
+
+/* Class = "IBUITextField"; placeholder = "email@email.com"; ObjectID = "BCF-0w-s0x"; */
+"BCF-0w-s0x.placeholder" = "email@email.com";
+
+/* Class = "IBUILabel"; text = "Please provide an email address for system notifications"; ObjectID = "S4A-Rf-yLY"; */
+"S4A-Rf-yLY.text" = "请提供邮箱地址，以便系统通知";

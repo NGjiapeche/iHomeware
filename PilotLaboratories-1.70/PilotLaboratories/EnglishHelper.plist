@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Q</key>
+		<string>1.How to connect the gateway?</string>
+		<key>A</key>
+		<string> Connect the Gateway to your home WiFi router via an Ethernet cable, and plug in the power cord./n Scan QR code on gateway back side to download the &quot;iHomeware&quot; APP./n  Run the APP and follow the instructions to press &quot;connect&quot; button on the middle of the gateway, then input the email address to log in.</string>
+	</dict>
+	<dict>
+		<key>Q</key>
+		<string>2.How to connect devices with gateway?</string>
+		<key>A</key>
+		<string> Remove the battery isolation tape on devices and press &quot;connect&quot; button on the middle of the gateway. When the device is connected to the gateway, the gateway sends out a beep sound.</string>
+	</dict>
+	<dict>
+		<key>Q</key>
+		<string>3.How to reset to factory setting?</string>
+		<key>A</key>
+		<string> For beacons and vibration sensors: quick press for over 10 times within 5 seconds./n For contact, PIR and SOS sensors: take off the backside cover and long press black buttom for 5 seconds or more./n For smoke detectors: Long press side key for 5 seconds or more./n For smart LED strips: long press the black buttom on controller for 5 seconds or more./n For smart outlet: long press On/Off button for 5 seconds or more.For smart bulbs: keep turning on and off for 7 times, and each time the light must be turned on for 3 to 5 seconds.  </string>
+	</dict>
+	<dict>
+		<key>Q</key>
+		<string>4.Why there is beep sound notification from gateway?</string>
+		<key>A</key>
+		<string> When new devices connected into system, there will be beep sound./n When gateway reboot, all devices will be reconnected into system with beep sound./n When connected devices rejoin the network after off line event, there will be beep soud.</string>
+	</dict>
+	<dict>
+		<key>Q</key>
+		<string>5.What&apos;s the difference between Home/Arm and Away/Arm?</string>
+		<key>A</key>
+		<string> Home/Arm: by default, only contact sensors will be enabled.User can change setting manually to customize./n Away/Arm: by default,All devices will be enabled. User can change setting manually to customize.</string>
+	</dict>
+	<dict>
+		<key>Q</key>
+		<string>6.What to do when mobile phone can not receive push message.</string>
+		<key>A</key>
+		<string> Check if 3G/4G or WiFi has data service, and also check if iHomeware App is protected at the background and its push message function is allowed. </string>
+	</dict>
+	<dict>
+		<key>Q</key>
+		<string>7.In what cases the system will arm and disarm automatically?</string>
+		<key>A</key>
+		<string> Automatic arm and disarm function requires both beacon and contact sensor./n When door is closed with no beacon in presence, system will determine no family member is at home and arm automatically in 10 minutes./n When door is open with beacon in presence, system will determine at least one family member is back and disarm automatically.</string>
+	</dict>
+	<dict>
+		<key>Q</key>
+		<string>8.What to do when the device is placed too far from the gateway to communicate?</string>
+		<key>A</key>
+		<string> User can add a smart outlet from iHomeware as a router between gateway and devices to extend distance.</string>
+	</dict>
+	<dict>
+		<key>Q</key>
+		<string>9.What to do when gateway upgrade fails?</string>
+		<key>A</key>
+		<string> During upgrade process, only power light is on, and the gateway will be send out &quot;Arm at home&quot;/n sound when upgrade completes.Please wait up to 3 minutes if there is any wrong during upgrade. If the gateway doesn’t restart in 3 minutes, please turn off the gateway and and turn back on.The gateway will start upgrade process again automatically in 2 minutes. </string>
+	</dict>
+</array>
+</plist>

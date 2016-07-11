@@ -1,0 +1,180 @@
+/* 
+  Localizable.strings
+  PilotLaboratories
+
+  Created by yuchangtao on 14/11/1.
+  Copyright (c) 2014年 yct. All rights reserved.
+*/
+//个人设置
+"Serious Prompt" = "Serious Prompt";
+" Warning : You do not receive alerts on this task Gateway(:%@) push information!" = " Warning : You do not receive any alerts push this gateway(:%@) information ! You are currently connected network is(:%@)!";
+"Warm Prompt" = "Warm Prompt";
+"Setup" = "Setup";
+"User Email" = "User Email";
+"Application Settings" = "About";
+"Device Settings" = "Device Settings";
+"Gateway Settings" = "Gateway Settings";
+"Cloud Settings" = "Cloud Settings";
+
+"Please input your Email" = "Please input your Email";
+"Please confirm whether the power and impose gateway available in the network ! Try connecting again" = "Please confirm whether the power and impose gateway available in the network ! ";
+
+"Please enter a valid email address" = "Please enter a valid email address";
+"User Preferences" = "User Preferences";
+"Email -" = "Email -";
+"Recover Password" = "Recover Password";
+"Notifications & Alerts" = "Notifications & Alerts";
+"Update -" = "Update -";
+"no update available" = "----no new version";
+"Uninstall" = "Uninstall";
+"About" = "About";
+
+"Search For New Devices" = "Search For New Devices";
+"Configure A Device" = "Configure A Device";
+"RemoteNotification Setting" = "RemoteNotification Setting";
+"Gateway Settings" = "Gateway Settings";
+"Search For A New Gateway" = "Search For A New Gateway";
+"Select Gateway" = "Select Gateway";
+"Update Gateway-" = "Gateway Version";
+"Reboot Gateway" = "Gateway Name";
+"Reset Gateway" = "Reset Gateway";
+"Assign a new name" = "Assign a new name"; 
+"Address- " = "Address- ";
+"Reset Cloud" = "Reset Cloud";
+"New update available, install now?" = "New update available, install now?";
+"Avoid Unknown error , please operate under wifi network" = "Avoid Unknown error , please operate under wifi network";
+" Please uninstall this software manually" = " Please uninstall this software manually";
+"Press the button on the gateway and restart APP" = "Press the button on the gateway and restart APP";
+
+"Home Automation Center" = "Home Automation Center";
+"Build 1.1" = "Build 1.61";
+"Date 2014/11/1" = "Date 2015/11/18";
+"Copyright © 2014 Pilot Laboratories" = "Copyright © 2015 Pilot Laboratories";
+"“OK” button to clear" = "“OK” button to clear";
+
+"Searching for new devices…" = "Searching for new devices…";
+"No new devices found" = "No new devices found";
+"%lu gateways found" = "%lu gateways found";
+
+"Cancel" = "Cancel";
+"OK" = "OK";
+"No new gateways found" = "No new gateways found";
+
+
+"Reboot the gateway now?" = "Reboot the gateway now?";
+
+"Reset the gateway to factory defaults?" = "Reset the gateway to factory defaults?";
+"Warning : this will erase all settings!" = "Warning : this will erase all settings!";
+
+"Please input your Cloudserver" = "Please input your Cloudserver";
+
+"Please input your new Cloudserver" = "Please input your new Cloudserver";
+
+" Connection to cloud server failed！" = " Connection to cloud server failed！";
+"Connect the cloud server successfully !" = "Connect the cloud server successfully !";
+"Reset the cloud to factory defaults?" = "Reset the cloud to factory defaults?";
+" Warning : this will erase all settings!" = " Warning : this will erase all settings!";
+
+//启动液
+"Unable to connect the gateway.Connect again?" = "Unable to connect the gateway.Connect again?Try pressing a button on the gateway!";
+"Manual Override App" = "Manual Override App";
+"Save" = "Save";
+
+"Lighting" = "Lighting";
+"Sensor&Alert" = "Security";
+"SwitchBoard" = "SwitchBoard";
+"Setting" = "Setting";
+"Security" = "Security";
+
+"Please select a light and choose a color！" = "Please select a light and choose a color！";
+
+"The email address you entered was invalid, please try again" = "The email address you entered was invalid, please try again";
+
+"Mobile phone notification" = "Mobile phone notification";
+"Email notification" = "Email notification";
+
+"TemperatureSensor%d" = "TemperatureSensor%d";
+"DoorSensor%d" = "DoorSensor%d";
+"PirSensor%d" = "PirSensor%d";
+"GravitySensor%d" = "GravitySensor%d";
+"CoinGuard%d" = "CoinGuard%d";
+
+"  WaterSensor" ="  WaterSensor";
+"  PanicSensor" = "  PanicSensor";
+"  SmokeSensor" ="  SmokeSensor";
+"  CO2Senser" = "  CO2Senser";
+"  COSenser" =  "  COSenser";
+"  Becon" = "  Becon" ;
+
+"WaterSensor%d" ="WaterSensor%d";
+"PanicSensor%d" = "PanicSensor%d";
+"SmokeSensor%d" ="SmokeSensor%d";
+"CO2Senser%d" = "CO2Senser%d";
+"COSenser%d" = "COSenser%d";
+"Becon%d" = "Becon%d";
+
+
+
+"  Light" = "  Light";
+"  TemperatureSensor" = "  TemperatureSensor";
+"  DoorSensor" = "  DoorSensor";
+"  PirSensor" = "  PirSensor";
+"  Switch" = "  Switch";
+
+"Triggered" = "Triggered";
+"untriggered" = "untriggered";
+"Please input your Scene Name" = "Please input your Scene Name";
+"TemperatureSensor" = "TemperatureSensor";
+"DoorSensor" = "DoorSensor";
+"PirSensor" = "PirSensor";
+"coinguard" = "coinguard";
+
+"Away/Arm" = "ARM(away)";
+"Home/Arm" = "ARM(home)";
+"Disarm" = "Disarm";
+
+"OnOrOff" = "OnOrOff";
+"Alarm&Timer" = "Alarm&Timer";
+"FollowMusic" = "FollowMusic";
+"Relax" = "Relax";
+"Read" = "Read";
+"Focus" = "Focus";
+"Energy" = "Energy";
+"TreePimay" = "ThreePimay";
+"Favarite" = "Favarite";
+"Cancell" = "Cancell";
+"Camera" = "Camera";
+"Photo album" = "Photo album";
+"Whether to modify the scene" = "Whether to modify the scene";
+"YES" = "YES";
+"NO" = "NO";
+"Scene Edit" = "Scene Edit";
+"Delete Scene" = "Delete Scene";
+"Rename Scene" = "Rename Scene";
+"Switch"  = "Switch" ;
+"Silence Gatway?" = "Silence Gatway";
+"Mute The Gatway Sound?" = "Mute The Gatway Sound?";
+"Warning : this will mute prompt tone and sirens!" = "Warning : this will mute prompt tone and sirens!";
+"WebcamTy%d" = "WebcamTy%d";
+"Gateway version update"= "Gateway version update" ;
+"Current version:" = "Current version:";
+"Latest version:" = "Latest version:";
+"Ignore" = "Ignore";
+"Update Now" = "Update Now";
+"Tell me later" = "Tell me later" ;
+"Successed" = "Successed";
+" Congratulations, operating successfully implemented ! \n Please restart the app instructions" = "Congratulations, operating successfully implemented ! \nPlease restart the app instructions";
+"OK" = "OK";
+"Error" = "Error";
+"An unpredictable error has occurred and how to do? Try it again ?" = "An unpredictable error has occurred and how to do? \nTry it again ?";
+"NO" = "NO";
+"Your server has been disconnected , but the gateway is being updated ! Please wait a moment to restart APP" = "Your server has been disconnected , but the gateway is being updated ! Please wait a moment to restart APP";
+"Version%@" = "Version %0@";
+"Smarter, more convenient and more secure! Whether the update" = "Smarter, more convenient and more secure! Whether the update?";
+"Help" = "Help";
+"Pull down to refresh" = "Pull down to refresh";
+"Release to refresh" = "Release to refresh";
+"Last updated" = "Last updated";
+"Last updated：No records" = "Last updated：No records";
+"Last updated：%@" = "Last updated：%@";
+"Querying switch status" = "Querying switch status";

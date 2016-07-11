@@ -1,0 +1,6 @@
+
+/* Class = "IBUIButton"; normalTitle = "Cancel"; ObjectID = "IrC-Hf-mZU"; */
+"IrC-Hf-mZU.normalTitle" = "取消";
+
+/* Class = "IBUILabel"; text = "Please select the item"; ObjectID = "u05-nu-bou"; */
+"u05-nu-bou.text" = "请选择";

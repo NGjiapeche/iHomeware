@@ -1,0 +1,6 @@
+
+/* Class = "IBUILabel"; text = "Unable to connect to the cloud. Try again?"; ObjectID = "FaY-rt-52O"; */
+"FaY-rt-52O.text" = "无法连接云服务器，是否重试？";
+
+/* Class = "IBUITextField"; placeholder = "cloud.cloudserver.com"; ObjectID = "ILM-Dw-Ewp"; */
+"ILM-Dw-Ewp.placeholder" = "cloud.cloudserver.com";

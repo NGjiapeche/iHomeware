@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "AlarmLog"; ObjectID = "44c-RG-OGU"; */
+"44c-RG-OGU.text" = "Log";
+
+/* Class = "UILabel"; text = "Triggered"; ObjectID = "5z3-oa-rWV"; */
+"5z3-oa-rWV.text" = "Triggered";
+
+/* Class = "UILabel"; text = "Away/Arm Setup"; ObjectID = "7GL-J4-Ezz"; */
+"7GL-J4-Ezz.text" = "Away/Arm Setup";
+
+/* Class = "UILabel"; text = "CurrentStatus :"; ObjectID = "8ND-b2-RRf"; */
+"8ND-b2-RRf.text" = "CurrentStatus :";
+
+/* Class = "UILabel"; text = "Enable Alert :"; ObjectID = "BCY-Pv-Z1m"; */
+"BCY-Pv-Z1m.text" = "Enable Alert :";
+
+/* Class = "UILabel"; text = "Alerts"; ObjectID = "EEj-gL-m6x"; */
+"EEj-gL-m6x.text" = "Alerts";
+
+/* Class = "UILabel"; text = "Triggered History"; ObjectID = "OaZ-A9-dwk"; */
+"OaZ-A9-dwk.text" = "Triggered History";
+
+/* Class = "UIButton"; normalTitle = "Change Name"; ObjectID = "Q4D-CY-Rra"; */
+"Q4D-CY-Rra.normalTitle" = "Change Name";
+
+/* Class = "UILabel"; text = "Home / Arm"; ObjectID = "Z0F-SC-503"; */
+"Z0F-SC-503.text" = "Arm / Home";
+
+/* Class = "UILabel"; text = "Disarm"; ObjectID = "dSi-wG-wjH"; */
+"dSi-wG-wjH.text" = "Disarm";
+
+/* Class = "UILabel"; text = "Away / Arm"; ObjectID = "xHJ-nd-Hqs"; */
+"xHJ-nd-Hqs.text" = "Arm / Away";
+
+/* Class = "UILabel"; text = "Alerts"; ObjectID = "yw2-Eb-8bD"; */
+"yw2-Eb-8bD.text" = "Alerts";

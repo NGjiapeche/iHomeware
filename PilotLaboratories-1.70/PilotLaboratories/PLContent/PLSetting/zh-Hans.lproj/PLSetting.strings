@@ -1,0 +1,153 @@
+
+/* Class = "IBUITextField"; placeholder = "Password"; ObjectID = "2ak-r4-Bko"; */
+"2ak-r4-Bko.placeholder" = "密码";
+
+/* Class = "IBUIButton"; normalTitle = "Reset Password"; ObjectID = "2gR-B1-5kl"; */
+"2gR-B1-5kl.normalTitle" = "重置密码";
+
+/* Class = "IBUILabel"; text = "Select Gateway"; ObjectID = "3At-Do-5tX"; */
+"3At-Do-5tX.text" = "选择网关";
+
+/* Class = "IBUILabel"; text = "email@email.com"; ObjectID = "3vF-eK-vf3"; */
+"3vF-eK-vf3.text" = "email@email.com";
+
+/* Class = "IBUILabel"; text = "GATEWAY CCONFIGURATION"; ObjectID = "3ye-Jo-h3e"; */
+"3ye-Jo-h3e.text" = "网关配置";
+
+/* Class = "IBUILabel"; text = "Configure A Device"; ObjectID = "6dY-Ic-iEN"; */
+"6dY-Ic-iEN.text" = "配置新设备";
+
+/* Class = "IBUILabel"; text = "Address- "; ObjectID = "6oK-7D-W7U"; */
+"6oK-7D-W7U.text" = "地址- ";
+
+/* Class = "IBUILabel"; text = "Reset Gateway"; ObjectID = "AAZ-lS-KtT"; */
+"AAZ-lS-KtT.text" = "复位网关";
+
+/* Class = "IBUILabel"; text = "Recover  Password"; ObjectID = "AFX-Q5-WEs"; */
+"AFX-Q5-WEs.text" = "密码";
+
+/* Class = "IBUILabel"; text = "Notifications & Alerts"; ObjectID = "DpS-DT-RnO"; */
+"DpS-DT-RnO.text" = "通知&报警";
+
+/* Class = "IBUILabel"; text = "EULA"; ObjectID = "E5q-ga-I56"; */
+"E5q-ga-I56.text" = "EULA";
+
+/* Class = "IBUILabel"; text = "no update available"; ObjectID = "EHc-ek-wbz"; */
+"EHc-ek-wbz.text" = "未发现新软件";
+
+/* Class = "IBUITextField"; placeholder = "Confirm Password"; ObjectID = "GZv-xn-9Hf"; */
+"GZv-xn-9Hf.placeholder" = "确认密码";
+
+/* Class = "IBUITextField"; placeholder = "192.160.1.1"; ObjectID = "H06-Ya-HzM"; */
+"H06-Ya-HzM.placeholder" = "192.160.1.1";
+
+/* Class = "IBUITextField"; placeholder = "Email Address"; ObjectID = "HMI-oT-KyD"; */
+"HMI-oT-KyD.placeholder" = "邮件地址";
+
+/* Class = "IBUILabel"; text = "FORGET PASSWORD"; ObjectID = "I10-kC-xJg"; */
+"I10-kC-xJg.text" = "忘记密码";
+
+/* Class = "IBUILabel"; text = "User Preferences"; ObjectID = "J8f-yR-KrG"; */
+"J8f-yR-KrG.text" = "用户喜好";
+
+/* Class = "IBUILabel"; text = "Application Settings"; ObjectID = "JPf-fd-XgI"; */
+"JPf-fd-XgI.text" = "应用设置";
+
+/* Class = "IBUILabel"; text = "Update Gateway-"; ObjectID = "JgQ-p6-DIg"; */
+"JgQ-p6-DIg.text" = "更新网关-";
+
+/* Class = "IBUILabel"; text = "Configure A Device"; ObjectID = "KBY-9h-NPo"; */
+"KBY-9h-NPo.text" = "配置新设备";
+
+/* Class = "IBUITextField"; placeholder = "Email Address"; ObjectID = "KjX-ZN-BIk"; */
+"KjX-ZN-BIk.placeholder" = "邮件地址";
+
+/* Class = "IBUILabel"; text = "no update available"; ObjectID = "LIA-Ko-8uQ"; */
+"LIA-Ko-8uQ.text" = "未发现新软件";
+
+/* Class = "IBUILabel"; text = "Forgot Password?"; ObjectID = "RN8-c0-6qh"; */
+"RN8-c0-6qh.text" = "忘记密码?";
+
+/* Class = "IBUITextField"; placeholder = "Email Address"; ObjectID = "UVA-Oa-hzt"; */
+"UVA-Oa-hzt.placeholder" = "邮件地址";
+
+/* Class = "IBUILabel"; text = "cloud.cloudServier.com"; ObjectID = "WD0-9w-ZFc"; */
+"WD0-9w-ZFc.text" = "cloud.cloudServier.com";
+
+/* Class = "IBUILabel"; text = "Cloud Settings"; ObjectID = "X4x-Ok-eRy"; */
+"X4x-Ok-eRy.text" = "云设置;
+
+/* Class = "IBUILabel"; text = "EULA"; ObjectID = "Ydx-9L-e42"; */
+"Ydx-9L-e42.text" = "EULA";
+
+/* Class = "IBUILabel"; text = "Email -"; ObjectID = "acn-Ta-Ibd"; */
+"acn-Ta-Ibd.text" = "邮件 -";
+
+/* Class = "IBUILabel"; text = "Update -"; ObjectID = "c6r-0K-zSr"; */
+"c6r-0K-zSr.text" = "更新 -";
+
+/* Class = "IBUILabel"; text = "CREAT MY ACCOUNT"; ObjectID = "chg-lW-PFh"; */
+"chg-lW-PFh.text" = "CREAT MY ACCOUNT";
+
+/* Class = "IBUILabel"; text = "Reset Cloud"; ObjectID = "duH-WG-Id5"; */
+"duH-WG-Id5.text" = "重启云服务";
+
+/* Class = "IBUIButton"; normalTitle = "Reset Password"; ObjectID = "eb3-SR-cwK"; */
+"eb3-SR-cwK.normalTitle" = "重置密码";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "g6N-5x-j6F"; */
+"g6N-5x-j6F.normalTitle" = "Button";
+
+/* Class = "IBUILabel"; text = "Search For New Devices"; ObjectID = "gBB-0r-vpq"; */
+"gBB-0r-vpq.text" = "搜索新设备";
+
+/* Class = "IBUILabel"; text = "SIGN IN"; ObjectID = "gSu-f0-sax"; */
+"gSu-f0-sax.text" = "SIGN IN";
+
+/* Class = "IBUILabel"; text = "Gateway Settings"; ObjectID = "gkV-XF-diG"; */
+"gkV-XF-diG.text" = "网关设置";
+
+/* Class = "IBUILabel"; text = "Reboot Gateway"; ObjectID = "huj-h6-Jzx"; */
+"huj-h6-Jzx.text" = "重启网关";
+
+/* Class = "IBUILabel"; text = "Welcome"; ObjectID = "ibt-yH-BMf"; */
+"ibt-yH-BMf.text" = "欢迎";
+
+/* Class = "IBUIButton"; normalTitle = "sign in"; ObjectID = "idd-u7-uK8"; */
+"idd-u7-uK8.normalTitle" = "登录";
+
+/* Class = "IBUILabel"; text = "About"; ObjectID = "jax-5P-RD8"; */
+"jax-5P-RD8.text" = "关于";
+
+/* Class = "IBUILabel"; text = "Uninstall"; ObjectID = "k2v-aT-yX3"; */
+"k2v-aT-yX3.text" = "卸载";
+
+/* Class = "IBUITextField"; placeholder = "255.255.1.1"; ObjectID = "lcl-7H-2Ff"; */
+"lcl-7H-2Ff.placeholder" = "255.255.1.1";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "m4t-kx-Ihv"; */
+"m4t-kx-Ihv.normalTitle" = "";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "ms8-gS-SDr"; */
+"ms8-gS-SDr.normalTitle" = "";
+
+/* Class = "IBUIButton"; normalTitle = "Creat Account"; ObjectID = "nVv-Kx-oq1"; */
+"nVv-Kx-oq1.normalTitle" = "创建账号";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "qyf-Je-zQp"; */
+"qyf-Je-zQp.normalTitle" = "";
+
+/* Class = "IBUILabel"; text = "I accept the"; ObjectID = "rs9-18-1ns"; */
+"rs9-18-1ns.text" = "I accept the";
+
+/* Class = "IBUILabel"; text = "Search For A New Gateway"; ObjectID = "tPw-E8-wkO"; */
+"tPw-E8-wkO.text" = "搜索新网关";
+
+/* Class = "IBUITextField"; placeholder = "Password"; ObjectID = "w4G-1L-eni"; */
+"w4G-1L-eni.placeholder" = "密码";
+
+/* Class = "IBUILabel"; text = "Device Settings"; ObjectID = "z4p-io-HZc"; */
+"z4p-io-HZc.text" = "器件设置";
+
+/* Class = "IBUILabel"; text = "Setup"; ObjectID = "zcP-FS-1Hw"; */
+"zcP-FS-1Hw.text" = "设置";

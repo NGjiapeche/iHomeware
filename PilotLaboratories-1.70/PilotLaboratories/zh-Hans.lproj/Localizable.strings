@@ -1,0 +1,181 @@
+/* 
+  Localizable.strings
+  PilotLaboratories
+
+  Created by yuchangtao on 14/11/1.
+  Copyright (c) 2014年 yct. All rights reserved.
+*/
+//个人设置
+"Serious Prompt" = "重要提示";
+" Warning : You do not receive alerts on this task Gateway(:%@) push information!" = " 警告：您收不到任何此网关(:%@)的警报推送信息！你当前连接的网管是(:%@)！";
+"Warm Prompt" = "温馨提示";
+"Setup" = "设置";
+"User Email" = "用户账户";
+"Application Settings" = "关于";
+"Device Settings" = "器件设置";
+"Gateway Settings" = "网关设置";
+"Cloud Settings" = "云设置";
+"Please confirm whether the power and impose gateway available in the network ! Try connecting again" = "请确认网关是否接通电源并检查网关是否连接上服务器！";
+"Please input your Email" = "请输入您的邮箱地址";
+"Please enter a valid email address" = "输入邮箱无效";
+"Email -" = "邮箱 -";
+"Recover Password" = "重置密码";
+"Notifications & Alerts" = "通知/方式";
+"Update -" = "更新 -";
+"no update available" = "未发现新版本";
+"Uninstall" = "卸载";
+"About" = "关于";
+"Search For New Devices" = "搜索新设备";
+"Configure A Device" = "配置新设备";
+"Assign a new name" = "修改名称";
+"Search For A New Gateway" = "搜索新网关";
+"Select Gateway" = "选择网关";
+"Update Gateway-" = "网关版本";
+"Reboot Gateway" = "网关名称";
+"Reset Gateway" = "复位网关";
+"RemoteNotification Setting" = "通知";
+"Address- " = "云地址- ";
+"Reset Cloud" = "重启服务";
+"New update available, install now?" = "发现新软件，是否更新？";
+"Avoid Unknown error , please operate under wifi network" = "避免未知的错误，请在wifi网络下操作";
+" Please uninstall this software manually" = "请手动卸载这个软件";
+
+"Home Automation Center" = "智慧家庭中心";
+"Build 1.1" = "版本: 1.61";
+"Date 2014/11/18" = "日期：2015/11/18";
+"Copyright © 2014 Pilot Laboratories" = "版权 © 2015 Pilot Laboratories";
+"“OK” button to clear" = "“OK” button to clear";
+
+"Searching for new devices…" = "正在搜索新设备…";
+"No new devices found" = "未发现新设备";
+
+"%lu gateways found" = "%lu 网关被发现";
+
+"Cancel" = "取消";
+"OK" = "确定";
+
+"No new gateways found" = "没有发现新网关";
+
+"Reboot the gateway now?" = "是否重启网关？";
+"Reset the gateway to factory defaults?" = "是否恢复出厂状态？";
+"Press the button on the gateway and restart APP" = "请按一下与APP在同一个局域网下网关上的按键！并重新启动APP";
+
+"Warning : this will erase all settings!" = "警告：会擦除以前的设置！";
+
+"Please input your Cloudserver" = "请输入云端服务器地址";
+
+"Please input your new Cloudserver" = "请输入新的云端服务器地址";
+
+" Connection to cloud server failed！" = " 连接云服务端失败！";
+"Connect the cloud server successfully !" = "连接云服务器成功！";
+
+"Reset the cloud to factory defaults?" = "是否恢复重置云服务？";
+" Warning : this will erase all settings!" = " 警告：会擦除以前的设置！";
+
+//启动液
+"Unable to connect the gateway.Connect again?" = "无法连接网关，是否重试？按一下网关上的按键试一试！";
+"Manual Override App" = "手动关闭程序";
+
+"Lighting" = "照明";
+"Sensor&Alert" = "安防";
+"SwitchBoard" = "开关";
+"Setting" = "设置";
+"Security" = "安防";
+"Please select a light and choose a color！" = "请选择灯之后调色";
+
+"The email address you entered was invalid, please try again" = "您输入的邮箱地址是错误的，请重新输入";
+"Mobile phone notification" = "手机通知";
+"Email notification" = "邮箱通知";
+
+
+"TemperatureSensor%d" = "温度传感器%d";
+"DoorSensor%d" = "门传感器%d";
+"PirSensor%d" = "红外传感器%d";
+"GravitySensor%d" = "重力传感器%d";
+"CoinGuard%d" = "震动传感器%d";
+
+"  Light" = "  灯";
+"  TemperatureSensor" = "  温度传感器";
+"  DoorSensor" = "  门传感器";
+"  PirSensor" = "  红外传感器";
+"  Switch" = "  开关";
+
+
+"  WaterSensor" ="  水传感器";
+"  PanicSensor" = "  SOS报警器";
+"  SmokeSensor" ="  烟雾传感器";
+"  CO2Senser" = "  二氧化碳传感器";
+"  COSenser" = "  一氧化炭传感器";
+"  Becon" = "  电子钥匙";
+
+"WaterSensor%d" ="水传感器%d";
+"PanicSensor%d" = "SOS报警器%d";
+"SmokeSensor%d" ="烟雾传感器%d";
+"CO2Senser%d" = "二氧化碳传感器%d";
+"COSenser%d" = "一氧化炭传感器%d";
+"Becon%d" = "电子钥匙%d";
+
+
+"Triggered" = "触发";
+"untriggered" = "非触发";
+"Please input your Scene Name" = "请输入添加场景的名字";
+
+"TemperatureSensor" = "温度传感器";
+"DoorSensor" = "门传感器";
+"PirSensor" = "红外传感器";
+"coinguard" = "震动传感器";
+
+
+"Away/Arm" = " 离家模式";
+"Home/Arm" = " 在家模式";
+"Disarm" = "取消设防";
+
+"OnOrOff" = "开关";
+"Alarm&Timer" = "报警&定时器";
+"FollowMusic" = "跟随音乐";
+"Relax" = "休闲";
+"Read" = "阅读";
+"Focus" = "焦点";
+"Energy" = "能量";
+"TreePimay" = "三原色";
+"Favarite" = "喜欢";
+
+"Cancell" = "取消";
+"Camera" = "相机";
+"Photo album" = "相册";
+
+"Save" = "保存";
+"Whether to modify the scene"= "是否修改场景";
+"YES" = "是";
+"NO" = "否";
+"Rename Scene" = "修改名字";
+"Scene Edit" = "场景编辑";
+"Delete Scene" = "删除场景";
+"Switch"  = "开关" ;
+"Silence Gatway" = "屏蔽网关声音";
+"Mute The Gatway Sound?" = "屏蔽网关所有声音提示？";
+"Warning : this will mute prompt tone and sirens!" = "警告 : 将会屏蔽掉网关提示音和报警声！";
+"WebcamTy%d" = "摄像头%d";
+
+"Gateway version update" = "网关版本可更新" ;
+"Current version:" = "当前版本:" ;
+"Latest version:" = "最新版本:";
+"Ignore" = "忽略该版";
+"Update Now" = "立即更新";
+"Tell me later" = "以后再说" ;
+"Successed" = "成功";
+" Congratulations, operating successfully implemented ! \n Please restart the app instructions" = "恭喜，网关固件更新成功！\n您可以重启APP进行操作";
+"OK" = "确定";
+"Error" = "错误";
+"An unpredictable error has occurred and how to do? Try it again ?" = "发生了一个不可预知的错误，怎么办？要再试一试吗?";
+"NO" = "不要";
+"Your server has been disconnected , but the gateway is being updated ! Please wait a moment to restart APP" = "你与服务器已经断开连接，但网关正在更新！请稍等片刻重启APP";
+"Version%@" = "版本 %@";
+"Smarter, more convenient and more secure! Whether the update" = "更智能、更便捷、更安全！是否更新？";
+"Help" = "帮助";
+"Pull down to refresh" = "下拉刷新";
+"Release to refresh" = "松手刷新";
+"Last updated" = "最后更新";
+"Last updated：No records" = "最后更新：无记录";
+"Last updated：%@" = "最后更新：%@";
+"Querying switch status" = "正在查询开关状态";

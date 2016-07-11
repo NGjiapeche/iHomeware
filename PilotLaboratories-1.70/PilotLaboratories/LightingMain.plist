@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Item0</key>
+	<dict>
+		<key>title</key>
+		<string></string>
+		<key>imagename</key>
+		<string>OnOrOff</string>
+		<key>flag</key>
+		<integer>50</integer>
+	</dict>
+	<key>Item1</key>
+	<dict>
+		<key>title</key>
+		<string>Alarm&amp;Timer</string>
+		<key>imagename</key>
+		<string>AlarmAndTimer</string>
+		<key>flag</key>
+		<integer>51</integer>
+	</dict>
+	<key>Item2</key>
+	<dict>
+		<key>title</key>
+		<string>Follow Music</string>
+		<key>imagename</key>
+		<string>FollowMusic</string>
+		<key>flag</key>
+		<integer>52</integer>
+	</dict>
+	<key>Item3</key>
+	<dict>
+		<key>title</key>
+		<string>Relax</string>
+		<key>imagename</key>
+		<string>Relax</string>
+		<key>flag</key>
+		<integer>53</integer>
+	</dict>
+	<key>Item4</key>
+	<dict>
+		<key>title</key>
+		<string>Read</string>
+		<key>imagename</key>
+		<string>Read</string>
+		<key>flag</key>
+		<integer>54</integer>
+	</dict>
+	<key>Item5</key>
+	<dict>
+		<key>title</key>
+		<string>Focus</string>
+		<key>imagename</key>
+		<string>Focus</string>
+		<key>flag</key>
+		<integer>55</integer>
+	</dict>
+	<key>Item6</key>
+	<dict>
+		<key>title</key>
+		<string>Energy</string>
+		<key>imagename</key>
+		<string>Energy</string>
+		<key>flag</key>
+		<integer>56</integer>
+	</dict>
+	<key>Item7</key>
+	<dict>
+		<key>title</key>
+		<string>Tree Pimay</string>
+		<key>imagename</key>
+		<string>TreePimay</string>
+		<key>flag</key>
+		<integer>57</integer>
+	</dict>
+	<key>Item8</key>
+	<dict>
+		<key>title</key>
+		<string>Favarite</string>
+		<key>imagename</key>
+		<string>Favarite</string>
+		<key>flag</key>
+		<integer>58</integer>
+	</dict>
+</dict>
+</plist>

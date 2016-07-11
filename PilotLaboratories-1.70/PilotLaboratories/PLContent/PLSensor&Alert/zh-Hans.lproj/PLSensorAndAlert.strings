@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "AlarmLog"; ObjectID = "44c-RG-OGU"; */
+"44c-RG-OGU.text" = "报警记录";
+
+/* Class = "UILabel"; text = "Triggered"; ObjectID = "5z3-oa-rWV"; */
+"5z3-oa-rWV.text" = "触发";
+
+/* Class = "UILabel"; text = "Away/Arm Setup"; ObjectID = "7GL-J4-Ezz"; */
+"7GL-J4-Ezz.text" = "Away/Arm Setup";
+
+/* Class = "UILabel"; text = "CurrentStatus :"; ObjectID = "8ND-b2-RRf"; */
+"8ND-b2-RRf.text" = "当前状态 :";
+
+/* Class = "UILabel"; text = "Enable Alert :"; ObjectID = "BCY-Pv-Z1m"; */
+"BCY-Pv-Z1m.text" = "警报状态:";
+
+/* Class = "UILabel"; text = "Alerts"; ObjectID = "EEj-gL-m6x"; */
+"EEj-gL-m6x.text" = "警报";
+
+/* Class = "UILabel"; text = "Triggered History"; ObjectID = "OaZ-A9-dwk"; */
+"OaZ-A9-dwk.text" = "报警记录";
+
+/* Class = "UIButton"; normalTitle = "Change Name"; ObjectID = "Q4D-CY-Rra"; */
+"Q4D-CY-Rra.normalTitle" = "修改名字";
+
+/* Class = "UILabel"; text = "Home / Arm"; ObjectID = "Z0F-SC-503"; */
+"Z0F-SC-503.text" = "设防(在家)";
+
+/* Class = "UILabel"; text = "Disarm"; ObjectID = "dSi-wG-wjH"; */
+"dSi-wG-wjH.text" = "撤防";
+
+/* Class = "UILabel"; text = "Away / Arm"; ObjectID = "xHJ-nd-Hqs"; */
+"xHJ-nd-Hqs.text" = "设防(离家)";
+
+/* Class = "UILabel"; text = "Alerts"; ObjectID = "yw2-Eb-8bD"; */
+"yw2-Eb-8bD.text" = "警报";

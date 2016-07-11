@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		049779C81D2F98E000A2E91D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049779C71D2F98E000A2E91D /* AppDelegate.swift */; };
+		049779DD1D2F98E000A2E91D /* iHomewre_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049779DC1D2F98E000A2E91D /* iHomewre_swiftTests.swift */; };
+		049779E81D2F98E000A2E91D /* iHomewre_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049779E71D2F98E000A2E91D /* iHomewre_swiftUITests.swift */; };
+		049779FD1D2FA29B00A2E91D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049779F81D2FA29B00A2E91D /* Assets.xcassets */; };
+		049779FE1D2FA29B00A2E91D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049779F91D2FA29B00A2E91D /* LaunchScreen.storyboard */; };
+		049779FF1D2FA29B00A2E91D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049779FB1D2FA29B00A2E91D /* Main.storyboard */; };
+		04977A0C1D2FA67F00A2E91D /* RootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04977A0B1D2FA67F00A2E91D /* RootVC.swift */; };
+		04977A0E1D2FA88100A2E91D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04977A0D1D2FA88100A2E91D /* Info.plist */; };
+		04C256E21D336EDC00853338 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C256E11D336EDC00853338 /* LogoView.swift */; };
+		04C256E41D33720800853338 /* LogoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C256E31D33720800853338 /* LogoView.xib */; };
+		04CE2DB81D338424001A262C /* Light.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CE2DB71D338424001A262C /* Light.storyboard */; };
+		04CE2DBA1D33849A001A262C /* LightRootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE2DB91D33849A001A262C /* LightRootVC.swift */; };
+		04CE2DBC1D338A75001A262C /* GlobalShare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE2DBB1D338A75001A262C /* GlobalShare.swift */; };
+		04CE2DBE1D338D68001A262C /* Security.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CE2DBD1D338D68001A262C /* Security.storyboard */; };
+		04CE2DC01D338D8F001A262C /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CE2DBF1D338D8F001A262C /* Setting.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		049779D91D2F98E000A2E91D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 049779BC1D2F98E000A2E91D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 049779C31D2F98E000A2E91D;
+			remoteInfo = iHomewre_swift;
+		};
+		049779E41D2F98E000A2E91D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 049779BC1D2F98E000A2E91D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 049779C31D2F98E000A2E91D;
+			remoteInfo = iHomewre_swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		049779C41D2F98E000A2E91D /* iHomewre_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iHomewre_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		049779C71D2F98E000A2E91D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		049779D81D2F98E000A2E91D /* iHomewre_swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iHomewre_swiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		049779DC1D2F98E000A2E91D /* iHomewre_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iHomewre_swiftTests.swift; sourceTree = "<group>"; };
+		049779DE1D2F98E000A2E91D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049779E31D2F98E000A2E91D /* iHomewre_swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iHomewre_swiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		049779E71D2F98E000A2E91D /* iHomewre_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iHomewre_swiftUITests.swift; sourceTree = "<group>"; };
+		049779E91D2F98E000A2E91D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049779F81D2FA29B00A2E91D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		049779FA1D2FA29B00A2E91D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		049779FC1D2FA29B00A2E91D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04977A0B1D2FA67F00A2E91D /* RootVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootVC.swift; sourceTree = "<group>"; };
+		04977A0D1D2FA88100A2E91D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C256E11D336EDC00853338 /* LogoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		04C256E31D33720800853338 /* LogoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogoView.xib; sourceTree = "<group>"; };
+		04CE2DB71D338424001A262C /* Light.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Light.storyboard; sourceTree = "<group>"; };
+		04CE2DB91D33849A001A262C /* LightRootVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightRootVC.swift; sourceTree = "<group>"; };
+		04CE2DBB1D338A75001A262C /* GlobalShare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalShare.swift; sourceTree = "<group>"; };
+		04CE2DBD1D338D68001A262C /* Security.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Security.storyboard; sourceTree = "<group>"; };
+		04CE2DBF1D338D8F001A262C /* Setting.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		049779C11D2F98E000A2E91D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049779D51D2F98E000A2E91D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049779E01D2F98E000A2E91D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		049779BB1D2F98E000A2E91D = {
+			isa = PBXGroup;
+			children = (
+				049779C61D2F98E000A2E91D /* iHomewre_swift */,
+				049779DB1D2F98E000A2E91D /* iHomewre_swiftTests */,
+				049779E61D2F98E000A2E91D /* iHomewre_swiftUITests */,
+				049779C51D2F98E000A2E91D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		049779C51D2F98E000A2E91D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				049779C41D2F98E000A2E91D /* iHomewre_swift.app */,
+				049779D81D2F98E000A2E91D /* iHomewre_swiftTests.xctest */,
+				049779E31D2F98E000A2E91D /* iHomewre_swiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		049779C61D2F98E000A2E91D /* iHomewre_swift */ = {
+			isa = PBXGroup;
+			children = (
+				04977A031D2FA36200A2E91D /* ThirdLib */,
+				04977A041D2FA36B00A2E91D /* DataBaseManager */,
+				04977A071D2FA38A00A2E91D /* Models */,
+				04977A061D2FA37E00A2E91D /* NetWork */,
+				04977A051D2FA37700A2E91D /* CustomView */,
+				04977A081D2FA44A00A2E91D /* SecurityVC */,
+				04977A0A1D2FA45500A2E91D /* LightVC */,
+				04977A091D2FA44A00A2E91D /* SettingVC */,
+				049779C71D2F98E000A2E91D /* AppDelegate.swift */,
+				04977A0B1D2FA67F00A2E91D /* RootVC.swift */,
+				04CE2DBB1D338A75001A262C /* GlobalShare.swift */,
+				049779F71D2FA29B00A2E91D /* Resource */,
+				04977A001D2FA2AD00A2E91D /* Supporting File */,
+			);
+			path = iHomewre_swift;
+			sourceTree = "<group>";
+		};
+		049779DB1D2F98E000A2E91D /* iHomewre_swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				049779DC1D2F98E000A2E91D /* iHomewre_swiftTests.swift */,
+				049779DE1D2F98E000A2E91D /* Info.plist */,
+			);
+			path = iHomewre_swiftTests;
+			sourceTree = "<group>";
+		};
+		049779E61D2F98E000A2E91D /* iHomewre_swiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				049779E71D2F98E000A2E91D /* iHomewre_swiftUITests.swift */,
+				049779E91D2F98E000A2E91D /* Info.plist */,
+			);
+			path = iHomewre_swiftUITests;
+			sourceTree = "<group>";
+		};
+		049779F71D2FA29B00A2E91D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				049779F81D2FA29B00A2E91D /* Assets.xcassets */,
+				049779FB1D2FA29B00A2E91D /* Main.storyboard */,
+				04CE2DB71D338424001A262C /* Light.storyboard */,
+				04CE2DBD1D338D68001A262C /* Security.storyboard */,
+				04CE2DBF1D338D8F001A262C /* Setting.storyboard */,
+				049779F91D2FA29B00A2E91D /* LaunchScreen.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		04977A001D2FA2AD00A2E91D /* Supporting File */ = {
+			isa = PBXGroup;
+			children = (
+				04977A0D1D2FA88100A2E91D /* Info.plist */,
+			);
+			path = "Supporting File";
+			sourceTree = "<group>";
+		};
+		04977A031D2FA36200A2E91D /* ThirdLib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdLib;
+			sourceTree = "<group>";
+		};
+		04977A041D2FA36B00A2E91D /* DataBaseManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataBaseManager;
+			sourceTree = "<group>";
+		};
+		04977A051D2FA37700A2E91D /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		04977A061D2FA37E00A2E91D /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		04977A071D2FA38A00A2E91D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04977A081D2FA44A00A2E91D /* SecurityVC */ = {
+			isa = PBXGroup;
+			children = (
+				04C256E11D336EDC00853338 /* LogoView.swift */,
+				04C256E31D33720800853338 /* LogoView.xib */,
+			);
+			path = SecurityVC;
+			sourceTree = "<group>";
+		};
+		04977A091D2FA44A00A2E91D /* SettingVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SettingVC;
+			sourceTree = "<group>";
+		};
+		04977A0A1D2FA45500A2E91D /* LightVC */ = {
+			isa = PBXGroup;
+			children = (
+				04CE2DB91D33849A001A262C /* LightRootVC.swift */,
+			);
+			path = LightVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		049779C31D2F98E000A2E91D /* iHomewre_swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049779EC1D2F98E000A2E91D /* Build configuration list for PBXNativeTarget "iHomewre_swift" */;
+			buildPhases = (
+				049779C01D2F98E000A2E91D /* Sources */,
+				049779C11D2F98E000A2E91D /* Frameworks */,
+				049779C21D2F98E000A2E91D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iHomewre_swift;
+			productName = iHomewre_swift;
+			productReference = 049779C41D2F98E000A2E91D /* iHomewre_swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		049779D71D2F98E000A2E91D /* iHomewre_swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049779EF1D2F98E000A2E91D /* Build configuration list for PBXNativeTarget "iHomewre_swiftTests" */;
+			buildPhases = (
+				049779D41D2F98E000A2E91D /* Sources */,
+				049779D51D2F98E000A2E91D /* Frameworks */,
+				049779D61D2F98E000A2E91D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				049779DA1D2F98E000A2E91D /* PBXTargetDependency */,
+			);
+			name = iHomewre_swiftTests;
+			productName = iHomewre_swiftTests;
+			productReference = 049779D81D2F98E000A2E91D /* iHomewre_swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		049779E21D2F98E000A2E91D /* iHomewre_swiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049779F21D2F98E000A2E91D /* Build configuration list for PBXNativeTarget "iHomewre_swiftUITests" */;
+			buildPhases = (
+				049779DF1D2F98E000A2E91D /* Sources */,
+				049779E01D2F98E000A2E91D /* Frameworks */,
+				049779E11D2F98E000A2E91D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				049779E51D2F98E000A2E91D /* PBXTargetDependency */,
+			);
+			name = iHomewre_swiftUITests;
+			productName = iHomewre_swiftUITests;
+			productReference = 049779E31D2F98E000A2E91D /* iHomewre_swiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		049779BC1D2F98E000A2E91D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					049779C31D2F98E000A2E91D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					049779D71D2F98E000A2E91D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 049779C31D2F98E000A2E91D;
+					};
+					049779E21D2F98E000A2E91D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 049779C31D2F98E000A2E91D;
+					};
+				};
+			};
+			buildConfigurationList = 049779BF1D2F98E000A2E91D /* Build configuration list for PBXProject "iHomewre_swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 049779BB1D2F98E000A2E91D;
+			productRefGroup = 049779C51D2F98E000A2E91D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				049779C31D2F98E000A2E91D /* iHomewre_swift */,
+				049779D71D2F98E000A2E91D /* iHomewre_swiftTests */,
+				049779E21D2F98E000A2E91D /* iHomewre_swiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		049779C21D2F98E000A2E91D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04977A0E1D2FA88100A2E91D /* Info.plist in Resources */,
+				049779FF1D2FA29B00A2E91D /* Main.storyboard in Resources */,
+				049779FD1D2FA29B00A2E91D /* Assets.xcassets in Resources */,
+				04CE2DBE1D338D68001A262C /* Security.storyboard in Resources */,
+				04CE2DB81D338424001A262C /* Light.storyboard in Resources */,
+				049779FE1D2FA29B00A2E91D /* LaunchScreen.storyboard in Resources */,
+				04C256E41D33720800853338 /* LogoView.xib in Resources */,
+				04CE2DC01D338D8F001A262C /* Setting.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049779D61D2F98E000A2E91D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049779E11D2F98E000A2E91D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		049779C01D2F98E000A2E91D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04977A0C1D2FA67F00A2E91D /* RootVC.swift in Sources */,
+				04CE2DBA1D33849A001A262C /* LightRootVC.swift in Sources */,
+				04C256E21D336EDC00853338 /* LogoView.swift in Sources */,
+				049779C81D2F98E000A2E91D /* AppDelegate.swift in Sources */,
+				04CE2DBC1D338A75001A262C /* GlobalShare.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049779D41D2F98E000A2E91D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049779DD1D2F98E000A2E91D /* iHomewre_swiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049779DF1D2F98E000A2E91D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049779E81D2F98E000A2E91D /* iHomewre_swiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		049779DA1D2F98E000A2E91D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 049779C31D2F98E000A2E91D /* iHomewre_swift */;
+			targetProxy = 049779D91D2F98E000A2E91D /* PBXContainerItemProxy */;
+		};
+		049779E51D2F98E000A2E91D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 049779C31D2F98E000A2E91D /* iHomewre_swift */;
+			targetProxy = 049779E41D2F98E000A2E91D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		049779F91D2FA29B00A2E91D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				049779FA1D2FA29B00A2E91D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		049779FB1D2FA29B00A2E91D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				049779FC1D2FA29B00A2E91D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		049779EA1D2F98E000A2E91D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		049779EB1D2F98E000A2E91D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		049779ED1D2F98E000A2E91D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iHomewre_swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pilotlab.iHomewre-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		049779EE1D2F98E000A2E91D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iHomewre_swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pilotlab.iHomewre-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		049779F01D2F98E000A2E91D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iHomewre_swiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pilotlab.iHomewre-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iHomewre_swift.app/iHomewre_swift";
+			};
+			name = Debug;
+		};
+		049779F11D2F98E000A2E91D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iHomewre_swiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pilotlab.iHomewre-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iHomewre_swift.app/iHomewre_swift";
+			};
+			name = Release;
+		};
+		049779F31D2F98E000A2E91D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iHomewre_swiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pilotlab.iHomewre-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iHomewre_swift;
+			};
+			name = Debug;
+		};
+		049779F41D2F98E000A2E91D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iHomewre_swiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pilotlab.iHomewre-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iHomewre_swift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		049779BF1D2F98E000A2E91D /* Build configuration list for PBXProject "iHomewre_swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049779EA1D2F98E000A2E91D /* Debug */,
+				049779EB1D2F98E000A2E91D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049779EC1D2F98E000A2E91D /* Build configuration list for PBXNativeTarget "iHomewre_swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049779ED1D2F98E000A2E91D /* Debug */,
+				049779EE1D2F98E000A2E91D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049779EF1D2F98E000A2E91D /* Build configuration list for PBXNativeTarget "iHomewre_swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049779F01D2F98E000A2E91D /* Debug */,
+				049779F11D2F98E000A2E91D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049779F21D2F98E000A2E91D /* Build configuration list for PBXNativeTarget "iHomewre_swiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049779F31D2F98E000A2E91D /* Debug */,
+				049779F41D2F98E000A2E91D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 049779BC1D2F98E000A2E91D /* Project object */;
+}

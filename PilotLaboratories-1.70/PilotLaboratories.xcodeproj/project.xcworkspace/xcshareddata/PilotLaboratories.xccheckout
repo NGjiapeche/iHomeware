@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>73BA0305-3F5D-4D1C-80D9-A7F602FC48CC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>.</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1f764445-8b19-5844-ba76-759307206eb1++3549</key>
+		<string>http://192.168.1.248/svn/2014_wanxing/trunk/ios/PilotLaboratories/PilotLaboratories/PilotLaboratories.xcodeproj</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>.</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1f764445-8b19-5844-ba76-759307206eb1++3549</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>1f764445-8b19-5844-ba76-759307206eb1++3549</key>
+		<string>http://192.168.1.248/svn/2014_wanxing</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://192.168.1.248/svn/2014_wanxing/trunk/ios/PilotLaboratories/PilotLaboratories/PilotLaboratories.xcodeproj/.</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1f764445-8b19-5844-ba76-759307206eb1++3549</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1f764445-8b19-5844-ba76-759307206eb1++3549</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PilotLaboratories.xcodeproj</string>
+		</dict>
+	</array>
+</dict>
+</plist>

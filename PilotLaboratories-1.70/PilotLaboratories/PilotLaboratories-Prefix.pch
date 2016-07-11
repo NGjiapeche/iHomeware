@@ -1,0 +1,38 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifndef __OPTIMIZE__
+#define DebugLog(...) NSLog(__VA_ARGS__)
+#else
+#define DebugLog(...) {}
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+#import "PLStoryboard.h"
+#import "PLWordDescription.h"
+#import "PLSegueIdentifier.h"
+#import "PLHelper.h"
+#import "PLNetworkManager.h"
+#import "PLCoordinates.h"
+#import "MBProgressHUD.h"
+#import "Constants.h"
+#import "PLSaveAlarmInfo.h"
+#import "PLDatabaseManager.h"
+#import "PLSceneManager.h"
+
+
+#endif
+
+#define IPHONE_FIRST_RUN
