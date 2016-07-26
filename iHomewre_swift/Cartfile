@@ -1,0 +1,3 @@
+github "robbiehanson/CocoaAsyncSocket" "master"
+github "ashleymills/Reachability.swift"
+github "scalessec/Toast-Swift" ~> 1.3.0

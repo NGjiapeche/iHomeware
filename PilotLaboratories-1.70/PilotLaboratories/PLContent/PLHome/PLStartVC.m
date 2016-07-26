@@ -78,6 +78,7 @@ PLNotiAndAlertsDelegate>
 
 - (void)viewWillAppear:(BOOL)animated
 {
+  
     ShowHUD;
     [self performSelector:@selector(judgeTimeOut) withObject:nil afterDelay:2.f];
     
@@ -220,7 +221,7 @@ PLNotiAndAlertsDelegate>
                                                                     object:nil
                                                                      queue:[NSOperationQueue mainQueue]
                                                                 usingBlock:^(NSNotification *note) {
-                                                                    
+                                                                    NSLog(@"搜索网关成功！！！！！！！！");
                                                                     [NSObject cancelPreviousPerformRequestsWithTarget:self selector:@selector(judgeTimeOutSearChGateway) object:nil];
                                                                     if (self.isTheFirstStart && !self.isDidFoundGateway)
                                                                     {

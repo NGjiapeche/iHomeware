@@ -2525,6 +2525,7 @@
 				INFOPLIST_FILE = "PilotLaboratories/PilotLaboratories-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pilot.PilotLaboratories;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				VALIDATE_PRODUCT = NO;
@@ -2544,6 +2545,7 @@
 				INFOPLIST_FILE = "PilotLaboratories/PilotLaboratories-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pilot.PilotLaboratories;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;

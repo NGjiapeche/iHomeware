@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0410AFDF1D38AF09001206B6 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0410AFDE1D38AF09001206B6 /* Reachability.framework */; };
+		0410AFE01D38AF09001206B6 /* Reachability.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0410AFDE1D38AF09001206B6 /* Reachability.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0435FBE11D3E27FD000197FF /* ToastSwiftFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0435FBE01D3E27FD000197FF /* ToastSwiftFramework.framework */; };
+		0435FBE21D3E27FD000197FF /* ToastSwiftFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0435FBE01D3E27FD000197FF /* ToastSwiftFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0451D7CF1D361C7A0005AD74 /* StartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0451D7CE1D361C7A0005AD74 /* StartVC.swift */; };
+		0451D7D11D361CC50005AD74 /* SearchedGatwayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0451D7D01D361CC50005AD74 /* SearchedGatwayCell.swift */; };
+		04793A451D379587009033AE /* unsafepoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04793A441D379587009033AE /* unsafepoint.swift */; };
+		048BFE161D34A4B100FAC248 /* NetWorkManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048BFE151D34A4B100FAC248 /* NetWorkManage.swift */; };
+		048BFE181D34B4D700FAC248 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048BFE171D34B4D700FAC248 /* CocoaAsyncSocket.framework */; };
+		048BFE191D34B4D700FAC248 /* CocoaAsyncSocket.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 048BFE171D34B4D700FAC248 /* CocoaAsyncSocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		048BFE1C1D34BD6E00FAC248 /* LightAjustVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048BFE1B1D34BD6E00FAC248 /* LightAjustVC.swift */; };
 		049779C81D2F98E000A2E91D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049779C71D2F98E000A2E91D /* AppDelegate.swift */; };
 		049779DD1D2F98E000A2E91D /* iHomewre_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049779DC1D2F98E000A2E91D /* iHomewre_swiftTests.swift */; };
 		049779E81D2F98E000A2E91D /* iHomewre_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049779E71D2F98E000A2E91D /* iHomewre_swiftUITests.swift */; };
@@ -41,7 +52,32 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		048BFE1A1D34B4D800FAC248 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				048BFE191D34B4D700FAC248 /* CocoaAsyncSocket.framework in Embed Frameworks */,
+				0435FBE21D3E27FD000197FF /* ToastSwiftFramework.framework in Embed Frameworks */,
+				0410AFE01D38AF09001206B6 /* Reachability.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0410AFDE1D38AF09001206B6 /* Reachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reachability.framework; path = ../../Carthage/Build/iOS/Reachability.framework; sourceTree = "<group>"; };
+		0410AFE11D38F44F001206B6 /* iHomewre_swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iHomewre_swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		0435FBE01D3E27FD000197FF /* ToastSwiftFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ToastSwiftFramework.framework; path = ../../Carthage/Build/iOS/ToastSwiftFramework.framework; sourceTree = "<group>"; };
+		0451D7CE1D361C7A0005AD74 /* StartVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartVC.swift; sourceTree = "<group>"; };
+		0451D7D01D361CC50005AD74 /* SearchedGatwayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchedGatwayCell.swift; sourceTree = "<group>"; };
+		04793A441D379587009033AE /* unsafepoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = unsafepoint.swift; sourceTree = "<group>"; };
+		048BFE151D34A4B100FAC248 /* NetWorkManage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkManage.swift; sourceTree = "<group>"; };
+		048BFE171D34B4D700FAC248 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = ../../Carthage/Build/iOS/CocoaAsyncSocket.framework; sourceTree = "<group>"; };
+		048BFE1B1D34BD6E00FAC248 /* LightAjustVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightAjustVC.swift; sourceTree = "<group>"; };
 		049779C41D2F98E000A2E91D /* iHomewre_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iHomewre_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		049779C71D2F98E000A2E91D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		049779D81D2F98E000A2E91D /* iHomewre_swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iHomewre_swiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +105,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048BFE181D34B4D700FAC248 /* CocoaAsyncSocket.framework in Frameworks */,
+				0435FBE11D3E27FD000197FF /* ToastSwiftFramework.framework in Frameworks */,
+				0410AFDF1D38AF09001206B6 /* Reachability.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +128,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0451D7CD1D361C7A0005AD74 /* StartVC */ = {
+			isa = PBXGroup;
+			children = (
+				0451D7CE1D361C7A0005AD74 /* StartVC.swift */,
+				0451D7D01D361CC50005AD74 /* SearchedGatwayCell.swift */,
+			);
+			path = StartVC;
+			sourceTree = "<group>";
+		};
 		049779BB1D2F98E000A2E91D = {
 			isa = PBXGroup;
 			children = (
@@ -122,9 +170,12 @@
 				04977A091D2FA44A00A2E91D /* SettingVC */,
 				049779C71D2F98E000A2E91D /* AppDelegate.swift */,
 				04977A0B1D2FA67F00A2E91D /* RootVC.swift */,
+				0451D7CD1D361C7A0005AD74 /* StartVC */,
 				04CE2DBB1D338A75001A262C /* GlobalShare.swift */,
+				04793A441D379587009033AE /* unsafepoint.swift */,
 				049779F71D2FA29B00A2E91D /* Resource */,
 				04977A001D2FA2AD00A2E91D /* Supporting File */,
+				0410AFE11D38F44F001206B6 /* iHomewre_swift-Bridging-Header.h */,
 			);
 			path = iHomewre_swift;
 			sourceTree = "<group>";
@@ -163,6 +214,9 @@
 		04977A001D2FA2AD00A2E91D /* Supporting File */ = {
 			isa = PBXGroup;
 			children = (
+				0435FBE01D3E27FD000197FF /* ToastSwiftFramework.framework */,
+				0410AFDE1D38AF09001206B6 /* Reachability.framework */,
+				048BFE171D34B4D700FAC248 /* CocoaAsyncSocket.framework */,
 				04977A0D1D2FA88100A2E91D /* Info.plist */,
 			);
 			path = "Supporting File";
@@ -192,6 +246,7 @@
 		04977A061D2FA37E00A2E91D /* NetWork */ = {
 			isa = PBXGroup;
 			children = (
+				048BFE151D34A4B100FAC248 /* NetWorkManage.swift */,
 			);
 			path = NetWork;
 			sourceTree = "<group>";
@@ -223,6 +278,7 @@
 			isa = PBXGroup;
 			children = (
 				04CE2DB91D33849A001A262C /* LightRootVC.swift */,
+				048BFE1B1D34BD6E00FAC248 /* LightAjustVC.swift */,
 			);
 			path = LightVC;
 			sourceTree = "<group>";
@@ -237,6 +293,7 @@
 				049779C01D2F98E000A2E91D /* Sources */,
 				049779C11D2F98E000A2E91D /* Frameworks */,
 				049779C21D2F98E000A2E91D /* Resources */,
+				048BFE1A1D34B4D800FAC248 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -363,11 +420,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0451D7D11D361CC50005AD74 /* SearchedGatwayCell.swift in Sources */,
 				04977A0C1D2FA67F00A2E91D /* RootVC.swift in Sources */,
 				04CE2DBA1D33849A001A262C /* LightRootVC.swift in Sources */,
 				04C256E21D336EDC00853338 /* LogoView.swift in Sources */,
+				04793A451D379587009033AE /* unsafepoint.swift in Sources */,
 				049779C81D2F98E000A2E91D /* AppDelegate.swift in Sources */,
+				048BFE161D34A4B100FAC248 /* NetWorkManage.swift in Sources */,
+				048BFE1C1D34BD6E00FAC248 /* LightAjustVC.swift in Sources */,
 				04CE2DBC1D338A75001A262C /* GlobalShare.swift in Sources */,
+				0451D7CF1D361C7A0005AD74 /* StartVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,7 +521,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -498,7 +560,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -509,11 +571,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = iHomewre_swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_SWIFT_FLAGS = "-D DEBUG";
+				OTHER_SWIFT_FLAGS = "-DDEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pilotlab.iHomewre-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iHomewre_swift/iHomewre_swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -521,11 +591,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = iHomewre_swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_SWIFT_FLAGS = "-D DEBUG";
+				OTHER_SWIFT_FLAGS = "-DDEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pilotlab.iHomewre-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iHomewre_swift/iHomewre_swift-Bridging-Header.h";
 			};
 			name = Release;
 		};

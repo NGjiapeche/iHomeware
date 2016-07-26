@@ -515,13 +515,11 @@ static PLNetworkManager *manager;
     memcpy(pWrite,&packageStart, 1);
     pWrite++;
     nWriteBytes++;
-    
     //RequestStart 0x00 1Byte
     char requestStart = RequestStart;
     memcpy(pWrite, &requestStart, 1);
     pWrite++;
     nWriteBytes++;
-    
     //CommondID 2Byte
     char firstCommondID = (char)(commandID / 256);
     memcpy(pWrite, &firstCommondID, 1);
@@ -531,7 +529,6 @@ static PLNetworkManager *manager;
     memcpy(pWrite, &secondCommondID, 1);
     pWrite++;
     nWriteBytes++;
-    
     //Length 2Byte
     memset(pWrite, (length / 256), 1);
     pWrite++;
@@ -539,7 +536,6 @@ static PLNetworkManager *manager;
     memset(pWrite, (length % 256), 1);
     pWrite++;
     nWriteBytes++;
-    
     //ListLength 2Byte
     memset(pWrite, 0, 1);
     pWrite++;
@@ -551,6 +547,8 @@ static PLNetworkManager *manager;
     //Data And FCS
     //FCS 1Byte
     char FCS = *(pBuffer + 2) ^ *(pBuffer + 3);
+    printf("=========++++++++++%d | %d, | %d",FCS, *(pBuffer + 2),*(pBuffer + 3));
+
     for (int i = 4; i < nWriteBytes; i++)
     {
         FCS = FCS ^ *(pBuffer + i);
@@ -2125,7 +2123,7 @@ static PLNetworkManager *manager;
     {
         NSData *credentialData = [NSData dataWithBytes:pData length:12];
         pData = pData + 12;
-        
+        NSLog(@"%@",credentialData);
         return credentialData;
     }
     
@@ -3738,7 +3736,7 @@ static PLNetworkManager *manager;
            fromHost:(NSString *)host
                port:(UInt16)port
 {
-    DebugLog(@"onUdpSocket didReceiveData:%@",data);
+    DebugLog(@" ++++++++++++++ onUdpSocket didReceiveData:%@",data);
     //解析网关ip地址
     [self parserGetwayIPAddressWithData:data];
     
